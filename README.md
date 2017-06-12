@@ -7,6 +7,7 @@ Ax = b => Ux = c
 Ax = b
 EAx=Eb
 
+### Gauss-Jordan Elimination
 Matrix multiplication AB = A[b1 b2 b3] = [Ab1 Ab2 Ab3]
 ##  the computation of AB multipications
 n^3 => n^2.376
