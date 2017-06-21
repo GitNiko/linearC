@@ -21,3 +21,11 @@ n^3 => n^2.376
 0 1 0
 ```
 ### pascal matrix
+
+## space
+### subspace
+R^n
+
+
+## reading refs
+https://en.wikipedia.org/wiki/Row_and_column_spaces
