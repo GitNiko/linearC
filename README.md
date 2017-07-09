@@ -25,7 +25,11 @@ n^3 => n^2.376
 ## space
 ### subspace
 R^n
-
+- column space of A: C(A)
+- null space of A: N(A)
+- row space of A: transpose column space : C(A')  
+- left null space of A(nul space of A transpose) : N(A')  
+C(R) != C(A)
 
 ## reading refs
 https://en.wikipedia.org/wiki/Row_and_column_spaces
