@@ -29,7 +29,21 @@ R^n
 - null space of A: N(A)
 - row space of A: transpose column space : C(A')  
 - left null space of A(nul space of A transpose) : N(A')  
-C(R) != C(A)
+C(R) != C(A)  
+
+### vector space
+
+## application
+### graph 
+nodes, edges => m * n  
+graph loop, matrix independent 
+Ax = 0
+Tree : a graph with no loops
+```js
+nodes:  1  2  3  4
+//----------------
+edges:[-1  1  0  0] // 1
+```
 
 ## reading refs
 https://en.wikipedia.org/wiki/Row_and_column_spaces
