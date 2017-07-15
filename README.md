@@ -26,9 +26,9 @@ n^3 => n^2.376
 ### subspace
 R^n
 - column space of A: C(A)
-- null space of A: N(A)
+- null space of A: N(A)  if only one zero vector then N(A) is column independent
 - row space of A: transpose column space : C(A')  
-- left null space of A(nul space of A transpose) : N(A')  
+- left null space of A(nul space of A transpose) : N(A')  dim N(A') = m - r
 C(R) != C(A)  
 
 ### vector space
@@ -44,6 +44,11 @@ nodes:  1  2  3  4
 //----------------
 edges:[-1  1  0  0] // 1
 ```
+
+## matlab note
+- dim : size(A, dim)  
+- null space: null(A)  
+- rank: rank(A)
 
 ## reading refs
 https://en.wikipedia.org/wiki/Row_and_column_spaces
