@@ -5,7 +5,9 @@ Gaussian elimination
 Ax = b => Ux = c
 
 Ax = b
-EAx=Eb
+EAx=Eb  
+
+A * B = C , rank(A) = rank(B) , then rank(C) <= rank(A)
 
 ### Gauss-Jordan Elimination
 Matrix multiplication AB = A[b1 b2 b3] = [Ab1 Ab2 Ab3]
@@ -25,13 +27,24 @@ n^3 => n^2.376
 ## space
 ### subspace
 R^n
-- column space of A: C(A)
-- null space of A: N(A)  if only one zero vector then N(A) is column independent
-- row space of A: transpose column space : C(A')  
+- column space of A: C(A), dim C(A) = r  
+- null space of A: N(A)  if only one zero vector then N(A) is column independent, dim N(A) = n - r  
+- row space of A: transpose column space : C(A'), dim C(A') = r
 - left null space of A(nul space of A transpose) : N(A')  dim N(A') = m - r
-C(R) != C(A)  
+C(R) != C(A)   
 
-### vector space
+### vector space  
+
+### orthogonality  
+C(A') and N(A) are orthogonal, C(A) and N(A') are orthogonal
+Null space contains all vectors |_ row space  
+
+A' * A = symmertric square because of  (A'A)' = A'A
+Ax=b => A'Ay = A'b  
+
+### projections  
+P = A * inv(A'A) * A'
+P' = P, P*P = P
 
 ## application
 ### graph 
@@ -44,6 +57,11 @@ nodes:  1  2  3  4
 //----------------
 edges:[-1  1  0  0] // 1
 ```
+
+### least squares fitting by a line
+A = [1 1; 2 2; 3 2] P=?  
+A = [1 1; 1 2; 1 3]
+
 
 ## matlab note
 - dim : size(A, dim)  
