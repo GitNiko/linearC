@@ -46,6 +46,20 @@ Ax=b => A'Ay = A'b
 P = A * inv(A'A) * A'
 P' = P, P*P = P
 
+### normal equation
+A'Ax = A'b
+
+### orthogonal basis
+Q' * Q = I => Q' = inv(Q)
+Graham & Schmidt
+
+### orthonormal matrix
+Q = [cos -sin; sin cos]
+Adhermar Q = [1 1 1 1; 1 -1 1 -1; 1 1 -1 -1; 1 -1 -1 1] / 2  
+P = Q * inv(Q'Q) * Q' = Q * inv(I) * Q' = Q * I * Q' = QQ'
+if Q is square the p = QQ' = I  
+with normal equation A'Ax = A'b => Q'Qx = b => 1 * x = A'b
+
 ## application
 ### graph 
 nodes, edges => m * n  
