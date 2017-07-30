@@ -58,7 +58,10 @@ Q = [cos -sin; sin cos]
 Adhermar Q = [1 1 1 1; 1 -1 1 -1; 1 1 -1 -1; 1 -1 -1 1] / 2  
 P = Q * inv(Q'Q) * Q' = Q * inv(I) * Q' = Q * I * Q' = QQ'
 if Q is square the p = QQ' = I  
-with normal equation A'Ax = A'b => Q'Qx = b => 1 * x = A'b
+with normal equation A'Ax = A'b => Q'Qx = b => 1 * x = A'b  
+
+### determinant
+
 
 ## application
 ### graph 
