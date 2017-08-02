@@ -60,8 +60,17 @@ P = Q * inv(Q'Q) * Q' = Q * inv(I) * Q' = Q * I * Q' = QQ'
 if Q is square the p = QQ' = I  
 with normal equation A'Ax = A'b => Q'Qx = b => 1 * x = A'b  
 
-### determinant
+## determinant
 
+### cofactors(minor)?
+
+### tri-diagonal determinant
+
+## eigenvalue and eigenvector
+if Ax = \x  then (A + 3I)x = Ax + 3Ix = \x + 3x = (\ + 3)x
+
+
+### trace?
 
 ## application
 ### graph 
@@ -83,7 +92,10 @@ A = [1 1; 1 2; 1 3]
 ## matlab note
 - dim : size(A, dim)  
 - null space: null(A)  
-- rank: rank(A)
+- rank: rank(A)  
+- determinant: det(A) 
+- eigenvalue: eig(A)
+
 
 ## reading refs
 https://en.wikipedia.org/wiki/Row_and_column_spaces
