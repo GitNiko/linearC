@@ -88,6 +88,8 @@ edges:[-1  1  0  0] // 1
 A = [1 1; 2 2; 3 2] P=?  
 A = [1 1; 1 2; 1 3]
 
+## fibonacci with eigenvalues
+
 
 ## matlab note
 - dim : size(A, dim)  
