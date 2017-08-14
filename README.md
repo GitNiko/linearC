@@ -105,6 +105,12 @@ A = [1 1; 1 2; 1 3]
 - determinant: det(A) 
 - eigenvalue: eig(A)
 
+## NN
+X = [0 1]
+W = [-2;-2]
+bias = 3
+output = X*W + 3 
+
 
 ## reading refs
 https://en.wikipedia.org/wiki/Row_and_column_spaces
