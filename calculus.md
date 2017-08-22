@@ -21,7 +21,11 @@ convex: if f'' > 0  凸函数 V型
 concave: if f'' < 0 凹函数 ^型
 
 ### Inflection Point 拐点
+convex 与 concave 相互变换的点， 即 f'' = 0 的时候
 
+### derivative equation
+dy/dx = y => e
+  
 
 ## functions
 ### y = x^n
@@ -33,5 +37,6 @@ dy/dx = cosx
 
 ## y = e^x
 dy/dx = e^x
+
 
 ## chain ruller
