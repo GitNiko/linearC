@@ -38,5 +38,14 @@ dy/dx = cosx
 ## y = e^x
 dy/dx = e^x
 
+## product rule & quotient rule
+p(x) = f(x)g(x) => dp/dx = f(x) dg/dx + g(x) df/dx
+q(x) = f(x)/g(x) => g(x) df/dx - f(x) dg/dx / (g^2(x))
+
+
+### e.g.
+f = x^2 g = x
 
 ## chain ruller
+z(x) = f g x
+dz/dx = dz/dg dg/dx
