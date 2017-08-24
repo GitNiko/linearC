@@ -49,3 +49,9 @@ f = x^2 g = x
 ## chain ruller
 z(x) = f g x
 dz/dx = dz/dg dg/dx
+
+### e.g.
+z = e^(-x^2 / 2)
+
+
+## multi derivative
