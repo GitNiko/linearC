@@ -38,6 +38,9 @@ dy/dx = cosx
 ## y = e^x
 dy/dx = e^x
 
+## log
+d(ln x)/dx = 1/x
+
 ## product rule & quotient rule
 p(x) = f(x)g(x) => dp/dx = f(x) dg/dx + g(x) df/dx
 q(x) = f(x)/g(x) => g(x) df/dx - f(x) dg/dx / (g^2(x))
@@ -55,3 +58,8 @@ z = e^(-x^2 / 2)
 
 
 ## multi derivative
+
+## the e
+(1+1/n)^n -> e
+
+## L'Hôpital's rule
