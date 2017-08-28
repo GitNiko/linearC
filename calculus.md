@@ -56,10 +56,18 @@ dz/dx = dz/dg dg/dx
 ### e.g.
 z = e^(-x^2 / 2)
 
+## inverse
 
-## multi derivative
+## growth rates
+### linear
+### polynomial
+### exponentail
+### factorial
+### 同是取对数，把大数字赚小
 
 ## the e
 (1+1/n)^n -> e
 
 ## L'Hôpital's rule
+
+## multi derivative
