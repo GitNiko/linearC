@@ -65,6 +65,9 @@ z = e^(-x^2 / 2)
 ### factorial
 ### 同是取对数，把大数字赚小
 
+## linear approximation / Newton's method
+
+
 ## the e
 (1+1/n)^n -> e
 
