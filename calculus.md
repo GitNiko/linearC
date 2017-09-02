@@ -67,7 +67,10 @@ z = e^(-x^2 / 2)
 
 ## linear approximation / Newton's method
 
-
+## power series
+### eular's formula
+### geometric series
+1/1-x = 1 + x^2 + x^3 + ...
 ## the e
 (1+1/n)^n -> e
 
