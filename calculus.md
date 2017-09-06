@@ -74,6 +74,12 @@ z = e^(-x^2 / 2)
 ## the e
 (1+1/n)^n -> e
 
+## differential equations
+
 ## L'Hôpital's rule
 
 ## multi derivative
+
+### directional derivatives
+V = v1 * derivatives(f,x) + v2 * derivatvies(f,y)
+  = [v1 v2] * [derivatives(f,x) derivatvies(f,y)]
