@@ -9,6 +9,9 @@ y(x) <=> dy/dt
 
 
 ## integral
+### 不定积分(indefined)
+反导数求解的时候不确定任意常数  
+`Integrate sinx dx = -cosx + c` 这个c是不确定的, (-cosx + c)' = sinx dx
 
 ## differential
 dy/dx = limit of deltaY/deltaX
