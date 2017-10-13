@@ -9,9 +9,11 @@ y(x) <=> dy/dt
 
 
 ## integral
-### 不定积分(indefined)
+### 不定积分(indefinite)
 反导数求解的时候不确定任意常数  
 `Integrate sinx dx = -cosx + c` 这个c是不确定的, (-cosx + c)' = sinx dx
+### 定积分(definite))
+
 
 ## differential
 dy/dx = limit of deltaY/deltaX
@@ -86,3 +88,7 @@ z = e^(-x^2 / 2)
 ### directional derivatives
 V = v1 * derivatives(f,x) + v2 * derivatvies(f,y)
   = [v1 v2] * [derivatives(f,x) derivatvies(f,y)]
+
+## 未知函数的作图
+- 一阶导数得出函数方向
+- 二阶导数得出函数convex或concave
