@@ -14,6 +14,9 @@ y(x) <=> dy/dt
 `Integrate sinx dx = -cosx + c` 这个c是不确定的, (-cosx + c)' = sinx dx
 ### 定积分(definite))
 
+### 求体积
+- disk(圆盘法)
+- 壳层法
 
 ## differential
 dy/dx = limit of deltaY/deltaX
