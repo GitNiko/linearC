@@ -16,7 +16,9 @@ y(x) <=> dy/dt
 
 ### 求体积
 - disk(圆盘法)
-- 壳层法
+- 壳层法 
+
+### riemann sum
 
 ## differential
 dy/dx = limit of deltaY/deltaX
@@ -95,3 +97,11 @@ V = v1 * derivatives(f,x) + v2 * derivatvies(f,y)
 ## 未知函数的作图
 - 一阶导数得出函数方向
 - 二阶导数得出函数convex或concave
+
+## 三角函数
+- (sinx)^2 + (cos)^2 = 1 
+- cos2x = cosx^2 - sinx^2
+- sin2x = 2sinx * cosx
+
+- (cosx)^2 = (1 + cos2x)/2
+- (sinx)^2 = (1 - cos2x)/2
