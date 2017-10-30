@@ -104,4 +104,10 @@ V = v1 * derivatives(f,x) + v2 * derivatvies(f,y)
 - sin2x = 2sinx * cosx
 
 - (cosx)^2 = (1 + cos2x)/2
-- (sinx)^2 = (1 - cos2x)/2
+- (sinx)^2 = (1 - cos2x)/2  
+
+## 三角函数化简策略  
+不能一眼看出来的可以先转换成sin cos
+
+### 三角替换
+一种特殊的换元积分法
