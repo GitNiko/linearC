@@ -4,14 +4,14 @@ calculus
 微积分就是讨论两种函数之间关系的学科
 
 ## <=>
-f(t) <=> df/dt  
+$f(t)$ <=> $\frac{d f}{d t}$  
 y(x) <=> dy/dt
 
 
 ## integral
 ### 不定积分(indefinite)
 反导数求解的时候不确定任意常数  
-`Integrate sinx dx = -cosx + c` 这个c是不确定的, (-cosx + c)' = sinx dx
+$\int sinx dx = -cosx + c$ 这个c是不确定的, $(-cosx + c)' = sinx dx$
 ### 定积分(definite))
 
 ### 求体积
@@ -99,15 +99,15 @@ V = v1 * derivatives(f,x) + v2 * derivatvies(f,y)
 - 二阶导数得出函数convex或concave
 
 ## 三角函数
-- (sinx)^2 + (cos)^2 = 1 
-- cos2x = cosx^2 - sinx^2
-- sin2x = 2sinx * cosx
+- $(sinx)^2 + (cos)^2 = 1$
+- $cos2x = cosx^2 - sinx^2$
+- $sin2x = 2sinx * cosx$
 
-- (cosx)^2 = (1 + cos2x)/2
-- (sinx)^2 = (1 - cos2x)/2  
+- $(cosx)^2 = (1 + cos2x)/2$
+- $(sinx)^2 = (1 - cos2x)/2$
 
 ## 三角函数化简策略  
-不能一眼看出来的可以先转换成sin cos
+不能一眼看出来的可以先转换成$sin$ $cos$
 
 ### 三角替换
 一种特殊的换元积分法
