@@ -12,7 +12,7 @@ y(x) <=> dy/dt
 ### 不定积分(indefinite)
 反导数求解的时候不确定任意常数  
 $\int sinx dx = -cosx + c$ 这个c是不确定的, $(-cosx + c)' = sinx dx$
-### 定积分(definite))
+### 定积分(definite)
 
 ### 求体积
 - disk(圆盘法)
@@ -21,11 +21,11 @@ $\int sinx dx = -cosx + c$ 这个c是不确定的, $(-cosx + c)' = sinx dx$
 ### riemann sum
 
 ## differential
-dy/dx = limit of deltaY/deltaX
+$dy/dx = \lim_{\Delta x \to 0} \Delta Y / \Delta X$
 
 ## derivatives
 ### second derivative 二阶导数
-f'' = (f')'
+$f'' = (f')'$
 ### convex and concave curves 凸函数和凹函数
 convex: if f'' > 0  凸函数 V型  
 concave: if f'' < 0 凹函数 ^型
