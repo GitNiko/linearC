@@ -120,7 +120,11 @@ V = v1 * derivatives(f,x) + v2 * derivatvies(f,y)
 处理`有理函数`，多项式除法`P(x)/Q(x)`  
 以下能通过`partial fractions`解决吗?  
  
-$$\int \frac{x^3}{(1+x^2)^2} dx$$
+$$\int \frac{x^3}{(2+x^2)^2} dx$$
+
+首先分母最高次大于分子最高次，应该可以转换成以下的模式
+
+$$ \frac{x^3}{(x^2+2)^2} = \frac{A_{1}x + B_{1}}{x^2+2} + \frac{A_{2}x + B_{2}}{(x^2+2)^2} $$
 
 ### 分布积分
 
@@ -130,3 +134,7 @@ todo
 
 ## 反常积分
 
+
+## external
+### 极坐标下的面积
+$$ area = \int_{\theta_{1}}^{\theta_{2}} \frac{1}{2}r^2d\theta$$
