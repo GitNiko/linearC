@@ -87,6 +87,16 @@ z = e^(-x^2 / 2)
 ## differential equations
 
 ## L'Hôpital's rule
+### $0/0$
+
+
+### $\infty/\infty$
+
+### $\lim_{x \to 0+} x^x$
+$$ x^x = e^{xlnx}$$
+
+### 注意点
+洛必达过程中不定形要保持一致
 
 ## multi derivative
 
