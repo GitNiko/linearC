@@ -148,3 +148,11 @@ todo
 ## external
 ### 极坐标下的面积
 $$ area = \int_{\theta_{1}}^{\theta_{2}} \frac{1}{2}r^2d\theta$$
+
+# multi calculus
+## point
+- local min
+- local max
+- saddle
+
+## least squares  
