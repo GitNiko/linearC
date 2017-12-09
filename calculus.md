@@ -35,6 +35,11 @@ convex 与 concave 相互变换的点， 即 f'' = 0 的时候
 
 ### derivative equation
 dy/dx = y => e
+
+### 反函数求导
+$$ y = sin^{-1}(x) $$
+$$ => x = sin(y) $$
+$$ => \frac{dy}{dx} = \frac{1}{cos(y)} = \frac{1}{\sqrt{1 - sin^2(y)}} = \frac{1}{\sqrt{1 - x^2}} $$
   
 
 ## functions
@@ -156,3 +161,7 @@ $$ area = \int_{\theta_{1}}^{\theta_{2}} \frac{1}{2}r^2d\theta$$
 - saddle
 
 ## least squares  
+
+## partial differential
+
+## total differential
