@@ -169,4 +169,8 @@ $$ area = \int_{\theta_{1}}^{\theta_{2}} \frac{1}{2}r^2d\theta$$
 ## level curve & level surface
 f(x,y) 描绘的是level curve  f(x,y,z) 描绘的是level surface
 
-## 梯度性质
+## 梯度
+
+## 方向导数
+
+## 拉格朗日乘数找出可能的极值点
