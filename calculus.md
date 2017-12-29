@@ -189,4 +189,5 @@ f(x,y,z) where g(x,y,z)
 
 ## moment of inertia  
 
-## 线积分
+## 线积分 
+- 路径独立 & 保守势
