@@ -186,9 +186,23 @@ f(x,y,z) where g(x,y,z)
 - 通过变量替换也可以把单变量很难积分的函数转化成多变量函数进行积分例如$\int e^{-x^{2}} dx$
 - 求平面面积
 - 求连续函数的平均值，也可以做加权平均值
-
 ## moment of inertia  
 
 ## 线积分 
-- 路径独立 & 保守势
+### 梯度场线积分证明链接
+- [第一种](http://onlinelibrary.wiley.com/higheredbcs//legacy/college/hugheshallett/0471484822/theory/hh_focusontheory_sectionl.pdf)
+- [第二种](http://tutorial.math.lamar.edu/Classes/CalcIII/FundThmLineIntegrals.aspx)
+
+### 性质 
+- 路径独立
+- 保守场(Conservative Vector Fields) => 曲线闭合的线积分是0
+- 特殊的例子 F=<-y, x>
+
+## 确定向量场是否是一个梯度场
+grad f = <fx, fy>  
+fxy == fyx 
+
+## Curl(旋度)
+curl(F) = fyx - fxy
+
 - $\oint$
