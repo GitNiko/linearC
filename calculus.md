@@ -202,10 +202,20 @@ f(x,y,z) where g(x,y,z)
 grad f = <fx, fy>  
 fxy == fyx 
 
+## 梯度场求积原函数
+
 ## Curl(旋度)
 curl(F) = fyx - fxy
 
 ## 格林公式
 
+
+## Flux(通量)
+
+## divegence(散度 )
+
+## 单连通
+
+## 柱坐标(cylindrical)
 
 - $\oint$
