@@ -211,11 +211,21 @@ curl(F) = fyx - fxy
 
 
 ## Flux(通量)
+### 线通量
+$$ \int F*n dS $$
+### 面通量
+$$ \iint F*n dS $$ 
 
 ## divegence(散度 )
 
 ## 单连通
 
 ## 柱坐标(cylindrical)
+
+## 面积分
+$$dS = a^2sin\phi d\phi d\theta$$
+
+## 转动惯量
+$$ I = $$
 
 - $\oint$
