@@ -170,6 +170,7 @@ $$ area = \int_{\theta_{1}}^{\theta_{2}} \frac{1}{2}r^2d\theta$$
 f(x,y) 描绘的是level curve  f(x,y,z) 描绘的是level surface
 
 ## 梯度
+梯度垂直于level surface, 也就是level sruface的法向量
 
 ## 方向导数
 
@@ -197,6 +198,7 @@ f(x,y,z) where g(x,y,z)
 - 路径独立
 - 保守场(Conservative Vector Fields) => 曲线闭合的线积分是0
 - 特殊的例子 F=<-y, x>
+- exact differential 恰当微分
 
 ## 确定向量场是否是一个梯度场
 grad f = <fx, fy>  
@@ -213,10 +215,18 @@ curl(F) = fyx - fxy
 ## Flux(通量)
 ### 线通量
 $$ \int F*n dS $$
+
 ### 面通量
 $$ \iint F*n dS $$ 
 
+### 高斯定理
+空心闭合曲线/曲面同样适合 => 对不方面求通量的几何，可以通过外层包裹一个简单方面计算通量的几何，通过高斯定理间接求出
+
+
 ## divegence(散度 )
+delta*F
+
+### diffusion equation(扩散方程)
 
 ## 单连通
 
@@ -228,4 +238,18 @@ $$dS = a^2sin\phi d\phi d\theta$$
 ## 转动惯量
 $$ I = $$
 
+## 斯托克斯
+
+## 拓扑
+
+## 不可定向曲面
+
 - $\oint$
+
+
+## differentail equation
+## 分离变量法
+## ODE几何方法
+- 积分线不相交，如果这样交点处就会有两个slope，但是slope field中一个点只会有一个slope  
+- 积分线不相切，
+
