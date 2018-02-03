@@ -10,6 +10,8 @@ name = "pypi"
 jupyter = "*"
 numpy = "*"
 matplotlib = "*"
+pypandoc = "*"
+scipy = "*"
 
 
 [dev-packages]
