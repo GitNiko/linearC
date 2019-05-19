@@ -12,6 +12,7 @@ numpy = "*"
 matplotlib = "*"
 pypandoc = "*"
 scipy = "*"
+scikit-image = "*"
 
 
 [dev-packages]
