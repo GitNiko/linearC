@@ -1,6 +1,6 @@
 [[source]]
 
-url = "https://pypi.python.org/simple"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple/"
 verify_ssl = true
 name = "pypi"
 
@@ -21,4 +21,4 @@ scikit-image = "*"
 
 [requires]
 
-python_version = "3.6"
+python_version = "3.7"
