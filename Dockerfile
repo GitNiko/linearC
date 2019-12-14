@@ -6,4 +6,4 @@ FROM python:3.7
 COPY --from=builder /repo .
 RUN pip3 install pipenv
 RUN pipenv install  --skip-lock --system --dev
-CMD jupyter notebook
+ENTRYPOINT ["jupyter", "notebook", "--ip=0.0.0.0", "--no-browser"]
