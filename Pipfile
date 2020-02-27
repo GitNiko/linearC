@@ -11,6 +11,9 @@ pypandoc = "*"
 scipy = "*"
 scikit-image = "*"
 pandas = "*"
+sqlalchemy = "*"
+pymysql = "*"
+jupyterlab = "*"
 
 [dev-packages]
 
